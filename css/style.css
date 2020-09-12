@@ -12,12 +12,13 @@ body {
 
 .masthead {
   padding: 6em 0;
-  background-image: url('../img/code.jpg');
+  background-image: url('../img/background.JPG');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .masthead-intro {
+    background-image:url('../img/headshot.jpg');
     margin-bottom: 0.1em;
     font-size: 2em;
     color: #ffffff;
