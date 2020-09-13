@@ -7,6 +7,7 @@ body {
 .content-footer,
 .masthead-heading,
 .masthead-intro {
+  
   text-align: center;
 }
 
@@ -18,7 +19,7 @@ body {
 }
 
 .masthead-intro {
-    background-image:url('../img/headshot.jpg');
+    
     margin-bottom: 0.1em;
     font-size: 2em;
     color: #ffffff;
