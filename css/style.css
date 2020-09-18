@@ -70,3 +70,34 @@ section > h1 {
   display: inline-block;
   margin: 0 5px;
 }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: grey;
+  color: #fff;
+  text-align:center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  left: 30;
+  bottom: 30;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.moveplane{
+  width: 1px;
+  height: 1px;
+  position: relative;
+  animation: mymove 120s infinite;}
+
+@keyframes mymove {
+ from {top:-100px; left: 110px; }
+  to {bottom: 300px; left:150px;}
+}
