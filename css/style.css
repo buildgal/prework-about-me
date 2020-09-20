@@ -87,10 +87,12 @@ section > h1 {
   z-index: 1;
 }
 
+  /* Position the tooltip- used WWW3 schools as a reference  */
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
 
+/*used WW3 schools as reference code */
 .moveplane{
   width: 1px;
   height: 1px;
